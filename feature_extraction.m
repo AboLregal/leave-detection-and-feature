@@ -4,9 +4,9 @@
 clc;clear;close all
 
 p=pwd;
-px{1}=strcat(p,'\1');
-px{2}=strcat(p,'\2');
-px{3}=strcat(p,'\3');
+px{1}=strcat(p,'\image 1');
+px{2}=strcat(p,'\image 2');
+px{3}=strcat(p,'\image 3');
 k=1;
 for i=1:3
     pz=px{i};
